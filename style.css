@@ -178,7 +178,85 @@ nav{
 
 /* header work done */
 
+main{
+    background-color: black;
+}
 
+main > section{
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+/* habits section */
+
+
+.habits-info{
+    width: 670px;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.habits-info h1{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 120%;
+    padding-bottom: 5px;
+}
+
+.habits-info p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.habits-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.habits-img-box h4{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 120%;
+    padding: 10px 0;
+}
+
+.habits-img-box p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.habits-img-box img{
+    border-radius: 50%;
+}
+/* habit section close */
+
+.run-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-top: 50px;
+}
+
+
+.img{
+    width: 350px;
+    height: 312px;
+}
 
 
 
@@ -200,5 +278,15 @@ nav{
     .banner-img{
         width: 100%;
         height: 100%;
+    }
+
+    /* habit */
+
+    .habits-info{
+        width: 400px ;
+        height: 120px;
+    }
+    .habits-img{
+        flex-direction: column;
     }
 }

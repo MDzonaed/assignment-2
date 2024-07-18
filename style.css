@@ -172,4 +172,33 @@ nav{
     line-height: 20px;
 }
 
+.hide{
+    display: none;
+}
+
 /* header work done */
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .menu-title{
+        display: none;
+    }
+    .hide{
+        display: block;
+        color: white;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-info{
+        width: 100%;
+        height: 100%;
+    }
+    .banner-img{
+        width: 100%;
+        height: 100%;
+    }
+}

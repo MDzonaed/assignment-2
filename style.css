@@ -244,11 +244,12 @@ main > section{
 
 .run-section{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border-radius: 18px;
     background: rgb(34, 34, 34);
     margin-top: 50px;
+    padding: 50px;
 }
 
 .run-info h2{
@@ -274,7 +275,133 @@ main > section{
 }
 /* run box done */
 
- 
+.calculator-info{
+    width: 670px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.calculator-info h2{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.calculator-info p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* calculator */
+.calculator-info{
+    padding: 50px 0;
+}
+
+.calculator-details{
+    background: rgb(34, 34, 34);
+}
+
+.age-calculator{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.table h3{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 120%;
+    padding-bottom: 50px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+
+.thead th{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
+    padding: 15px;
+}
+
+.tbody td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    padding: 15px;
+}
+
+
+.cal-box h3{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 120%;
+    padding-bottom: 14px;
+}
+
+.cal-box p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 14px;
+}
+
+
+.input-item input, select{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 15px 20px;
+    border: none;
+} 
+
+#height{
+    margin: 0 5px 10px 0;
+}
+
+#weight{
+    margin: 0 0 10px 0;
+}
+
+#age{
+    margin: 0 5px 10px 0;
+}
+
+#sex{
+    margin: 0 0 10px 0;
+    padding-right: 190px;
+}
+
+#unknow{
+    margin: 0 5px 10px 0;
+    width: 100%;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
     .menu-title{
@@ -324,5 +451,29 @@ main > section{
         width: 280px;
         height: 170px;
     }
-    /*  */
+    /* calculator */
+
+    .calculator-info{
+        padding: 20px 0;
+        width: 350px;
+    }
+
+    .age-calculator{
+        flex-direction: column;
+    }
+
+    .input-item input, select{
+        padding: 15px 2px;
+        border: none;
+    } 
+
+    #sex{
+        margin: 0 0 10px 0;
+        padding-right: 173px;
+    }
+
+    .cal-box{
+        padding-top: 50px;
+    }
+
 }
